@@ -1,0 +1,34 @@
+# Copyright 2015 Nicolas Melot
+#
+# This file is part of Drake-merge.
+#
+# Drake-merge is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Drake-merge is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Drake-merge. If not, see <http://www.gnu.org/licenses/>.
+#
+
+
+# Number of cores
+param p := 2;
+
+# Frequency levels
+set F := 100 106 114 123 133 145 160 178 200 228 266 320 400 533 800;
+param Funit := 1000000;
+
+# Frequency island extensions
+param Fin := 2;
+set Fi[1] := 1;
+set Fi[2] := 2;
+
+param Sin := 2;
+set Si[1] := 1;
+set Si[2] := 2;

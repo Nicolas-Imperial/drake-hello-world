@@ -23,10 +23,9 @@
 
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 
 #include <drake.h>
-#include <drake/link.h>
-#include <string.h>
 
 #if 10
 #define debug(var) printf("[%s:%s:%d:P%zu][%s] %s = \"%s\"\n", __FILE__, __FUNCTION__, __LINE__, drake_platform_core_id(), drake_task_name(), #var, var); fflush(NULL)
